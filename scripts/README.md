@@ -1,3 +1,4 @@
+# Go_Enrichment
 #  Gene Ontology Enrichment Pipeline with MAPT Case Study
 
 ## Overview
@@ -138,23 +139,17 @@ gene: **MAPT**
 to validate motif presence in a single gene promoter region.
 
 ## Workflow Summary 
-e:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
+- extract MAPT TSS from annotation data
+- generate promoter region (500 bp upstream)
+- extract promoter sequence from hg38 genome
+- perform motif search using dreg.
  
-p:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
-n:
-p:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
-d:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
-b:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
-a:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter sequence from hg38 genome, perform motif search using dreg.
-s:
-xtract MAPT TSS from annotation data, generate promoter region (500 bp upstream), extract promoter region (500 bp upstream)from hg38 genome,
-and perform motif search using dreg.
-i:
-k:
-e.g., Genome-wide motif scanning identified genes containing GC-rich promoter motifs; GO enrichment revealed biological processes associated with these genes; MAPT analysis confirmed motif presence in a real genomic promoter region.
+## Output Files
+- MAPT_tss.bed
+- MAPT_single.bed
+- MAPT_promoter.bed
+- MAPT_promoter.fa
+- MAPT_motif_hits.txt
+
+# KEY RESULTS
+Genome-wide motif scanning identified genes containing GC-rich promoter motifs; GO enrichment revealed biological processes associated with these genes; MAPT analysis confirmed motif presence in a real genomic promoter region.
