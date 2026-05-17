@@ -1,0 +1,25 @@
+########################################
+# Program: dreg
+# Rundate: Sun 17 May 2026 19:13:02
+# Commandline: dreg
+#    -sequence MAPT_single.fa
+#    -pattern GCGC..GCGC
+#    -outfile MAPT_motif_hits.txt
+# Report_format: seqtable
+# Report_file: MAPT_motif_hits.txt
+########################################
+
+#=======================================
+#
+#
+# Pattern: GCGC..GCGC
+#
+#=======================================
+
+
+#---------------------------------------
+# Total_sequences: 1
+# Total_length: 501
+# Reported_sequences: 0
+# Reported_hitcount: 0
+#---------------------------------------
