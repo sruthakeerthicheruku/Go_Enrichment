@@ -1,4 +1,4 @@
-# 🧬 Gene Ontology Enrichment Pipeline with MAPT Case Study
+#  Gene Ontology Enrichment Pipeline with MAPT Case Study
 
 ## Overview
 
