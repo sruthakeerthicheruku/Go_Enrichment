@@ -139,17 +139,17 @@ gene: **MAPT**
 to validate motif presence in a single gene promoter region.
 
 ## Workflow Summary 
-extract MAPT TSS from annotation data
-generate promoter region (500 bp upstream)
-extract promoter sequence from hg38 genome
-perform motif search using dreg.
+- extract MAPT TSS from annotation data
+- generate promoter region (500 bp upstream)
+- extract promoter sequence from hg38 genome
+- perform motif search using dreg.
  
-##Output Files
-MAPT_tss.bed
-MAPT_single.bed
-MAPT_promoter.bed
-MAPT_promoter.fa
-MAPT_motif_hits.txt
+## Output Files
+- MAPT_tss.bed
+- MAPT_single.bed
+- MAPT_promoter.bed
+- MAPT_promoter.fa
+- MAPT_motif_hits.txt
 
 # KEY RESULTS
 Genome-wide motif scanning identified genes containing GC-rich promoter motifs; GO enrichment revealed biological processes associated with these genes; MAPT analysis confirmed motif presence in a real genomic promoter region.
